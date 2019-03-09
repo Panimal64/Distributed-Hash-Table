@@ -8,8 +8,12 @@ Each line of host file contains node address and portnumber in xx.xxxxxx.edu 123
 
 Client will take 4 or 5 command line parameters
 dht_node.py [NODE_ADDRESS] [NODE_PORT] [get|put] [KEY] [VALUE]
-EXAMPLE
+
+EXAMPLE:
+
 dht_node.py xx.xxxx.edu 12345 put Washington Olympia
+
 dht_node.py xx.xxxx.edu 12345 get Washington
+
 Delete a key:value
 dht_node.py xx.xxxx.edu 12345 put Washington
